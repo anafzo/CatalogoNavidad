@@ -1,5 +1,6 @@
 body {
-    background-image: url("/backg-navidad.jpeg");
+    background-image: url("/assets/fondo-snowfl.svg");
+    width: auto;
 }
 
 main{
@@ -31,4 +32,14 @@ h1{
     font-family: 'Dancing Script', cursive;
     font-size: 60px;
     text-align: center;
+}
+.card-img-top{
+    height: 15rem;
+}
+
+.card{
+    font-family: 'Yeseva One', cursive;
+}
+.card:hover{
+    transform: scale(1.1);
 }
