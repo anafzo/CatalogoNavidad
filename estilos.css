@@ -12,7 +12,7 @@ main{
     color: green;
 }
 
-.art-navbar{
+.navbar-nav a{
     font-family: 'Yeseva One', cursive;
     color: green;
 }
@@ -34,10 +34,15 @@ h1{
     text-align: center;
 }
 
-.card{
+.card h5{
     font-family: 'Yeseva One', cursive;
 }
 .card:hover{
     transform: scale(1.1);
     color: black;
 }
+
+/* .sectionBanner img{
+    height: 50vh;
+    width: 100vw;
+} */
