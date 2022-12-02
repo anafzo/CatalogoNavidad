@@ -17,151 +17,59 @@
 <body class="d-flex flex-column">
     <!-- INICIO NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container text-center">
-            <div class="col-2">
-                <a href="#" class="art-navbar">Bolsas</a>
-            </div>
-            <div class="col-2">
-                <a href="#" class="art-navbar">Carteras</a>
-            </div>
-            <div class="col-4">
-                <a class="navbar-brand" href="index.html" id="titulo-navbar">Catálogo Navideño 2022</a>
-            </div>
-            <div class="col-2">
-                <a href="#" class="art-navbar">Mochilas</a>
-            </div>
-            <div class="col-2">
-                <a href="#" class="art-navbar">Electrodomésticos</a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html" id="titulo-navbar">Catálogo Navideño
+                2022</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Totes</a></li>
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Bolsos de mano</a></li>
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Crossbody</a></li>
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Bolsos de viaje</a></li>
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Bolsos multiusos</a></li>
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Mochilas</a></li>
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Clutches</a></li>
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Carteras</a></li>
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Cosmetiqueras</a></li>
+                            <li><a class="dropdown-item" href="/HTML/productos.html">Accesorios</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
     <!-- FIN NAVBAR -->
     <main>
         <!-- INICIO BANNER -->
-        <section class="container-fluid w-100 px-0">
+        <section class="container-fluid w-100 px-0 sectionBanner">
             <img src="/assets/bannerNavidad.jpg" class="img-fluid">
         </section>
         <!-- FIN BANNER -->
         <!-- INICIO TITULO -->
         <section class="container">
             <h1>Bienvenido a nuestro Outlet Navideño Oriflame 2022</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque excepturi corrupti aliquam adipisci minima. Expedita corporis hic consectetur officiis natus temporibus molestias fuga accusantium, quae iure earum quo autem exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque excepturi corrupti aliquam adipisci
+                minima. Expedita corporis hic consectetur officiis natus temporibus molestias fuga accusantium, quae
+                iure earum quo autem exercitationem.</p>
         </section>
         <!-- FIN TITULO -->
         <!-- INICIO CARDS -->
         <section class="mx-4 my-4">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-bmano/BolsoMano-Sandhamn-grande.svg" class="card-img-top img-fluid" alt="Foto de bolso de mano">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Bolsos de mano</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-tote/Tote-Accolade.svg" class="card-img-top img-fluid" alt="Foto de bolsa tote">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Totes</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-bclutch/Clutch-NorthernGlow.svg" class="card-img-top img-fluid" alt="Foto de bolso Clutch">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Clutches</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-bviaje/BolsoViaje-Midnatt.svg" class="card-img-top img-fluid" alt="Foto de bolso de viaje">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Bolsos de viaje</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-bcrossbody/Crossbody-Success.svg" class="card-img-top img-fluid" alt="Foto de bolso crossbody">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Bolsos Crossbody</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-cartera/Cartera-Moderne.svg" class="card-img-top img-fluid" alt="Foto de cartera">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Carteras</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-mochilas/Mochila-Lugano.svg" class="card-img-top img-fluid" alt="Foto de mochila azul">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Mochilas</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-bmultiusos/BolsoDeportivo-Puma.svg" class="card-img-top img-fluid" alt="Foto de bolso con asas">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Bolsos multiusos</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-cosmetiqueras/Cosmetiqueras-Sandhamn.svg" class="card-img-top img-fluid" alt="Foto de cosmetiqueras">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Cosmetiqueras</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="/assets/imgs-accesorios/Mascada-Morada.svg" class="card-img-top img-fluid" alt="Foto de mascada">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Accesorios</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                <div class="col">
-                    <a href="#">
-                    <div class="card">
-                        <img src="..." class="card-img-top img-fluid" alt="Foto de electrodoméstico">
-                        <div class="card-body border-top">
-                            <h5 class="card-title">Electrodomésticos</h5>
-                        </div>
-                    </div>
-                </a>
-                </div>
-            </div>
+            <div class="row row-cols-1 row-cols-md-4 g-4" id="sectionCards"></div>
         </section>
         <!-- FIN CARDS -->
     </main>
@@ -176,17 +84,20 @@
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
-                    <a class="text-muted" target="_blank" href="https://instagram.com/anaorozcopreciado?igshid=YmMyMTA2M2Y=">
+                    <a class="text-muted" target="_blank"
+                        href="https://instagram.com/anaorozcopreciado?igshid=YmMyMTA2M2Y=">
                         <img src="/assets/instagram.svg" alt="icono de instagram">
                     </a>
                 </li>
                 <li class="ms-3">
-                    <a class="text-muted" target="_blank" href="https://www.facebook.com/ana.orozcopreciado?mibextid=ZbWKwL">
+                    <a class="text-muted" target="_blank"
+                        href="https://www.facebook.com/ana.orozcopreciado?mibextid=ZbWKwL">
                         <img src="/assets/facebook.svg" alt="icono de facebook">
                     </a>
                 </li>
                 <li class="ms-3">
-                    <a class="text-muted" target="_blank" href="https://wa.me/526677916253?text=Me%20interesa%20un%20producto%20del%20outlet%20Oriflame">
+                    <a class="text-muted" target="_blank"
+                        href="https://wa.me/526677916253?text=Me%20interesa%20un%20producto%20del%20outlet%20Oriflame">
                         <img src="/assets/whatsapp.svg" alt="icono de whatsapp">
                     </a>
                 </li>
@@ -198,6 +109,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script type="module" src="/JS/script.js"></script>
 </body>
 
 </html>
