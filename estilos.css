@@ -1,0 +1,48 @@
+body {
+    background-image: url("/assets/fondo-snowfl.svg");
+    width: auto;
+}
+
+main{
+    min-height: 100vh;
+}
+
+#titulo-navbar{
+    font-family: 'Dancing Script', cursive;
+    color: green;
+}
+
+.navbar-nav a{
+    font-family: 'Yeseva One', cursive;
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    padding: 0;
+    margin: 0;
+    color: green;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.card h5{
+    font-family: 'Yeseva One', cursive;
+}
+.card:hover{
+    transform: scale(1.1);
+    color: black;
+}
+
+/* .sectionBanner img{
+    height: 50vh;
+    width: 100vw;
+} */
