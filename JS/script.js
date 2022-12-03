@@ -1,20 +1,30 @@
-import data from './articulos.json' assert { type: 'json' };
+// import data from './articulos.json' assert { type: 'json' };
 
 const sectionCards = document.getElementById("sectionCards");
+
+const fetchData = async () => {
+    try {
+        const res = await fetch('https://mockend.com/anafzo/db-mockend/products?limit=12');
+        const data = await res.json();
+        cards(data);
+    } catch (error) {
+        console.log(error);
+    }
+}
 
 const cards = data => {
     const prodCategorias = [];
     data.forEach(producto => {
-        const { category, img } = producto;
-        if (!prodCategorias.some(prod => prod.category === category)) {
+        // const { category, img } = producto;
+        if (!prodCategorias.some(prod => prod.category === producto.category)) {
             prodCategorias.push(producto);
             sectionCards.innerHTML += `
                 <div class="col">
                     <a href="../HTML/productos.html">
                         <div class="card">
-                            <img src="${img}" class="card-img-top img-fluid">
+                            <img src="${producto.img}" class="card-img-top img-fluid">
                             <div class="card-body border-top">
-                                <h5 class="card-title">${category}</h5>
+                                <h5 class="card-title">${producto.category}</h5>
                             </div>
                         </div>
                     </a>
@@ -42,7 +52,7 @@ function listenerNavbar() {
 
 //Aqui ejecutamos nuestra función fetchData
 document.addEventListener('DOMContentLoaded', () => {
-    cards(data);
+    fetchData();
     listenerCards();
     listenerNavbar();
 });
