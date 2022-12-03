@@ -11,7 +11,6 @@ const cardsCategory = data => {
         if (category===localStorage.getItem("category")) {
             sectionCards.innerHTML += `
             <div class="col">
-            <a href="../HTML/productos.html" style="text-decoration: none; color:black;">
                 <div class="card">
                     <img src="${img}" class="card-img-top img-fluid">
                     <div class="card-body border-top">
@@ -21,7 +20,6 @@ const cardsCategory = data => {
                         <a href="https://wa.me/526677916253?text=Me%20interesa%20${name}%20del%20outlet%20Oriflame" class="btn btn-outline-success btn-large"><img src="/assets/whatsapp.svg"> Contáctame</a>
                     </div>
                 </div>
-            </a>
         </div>`
         }
     })
