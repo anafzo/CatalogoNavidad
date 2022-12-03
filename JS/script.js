@@ -4,7 +4,7 @@ const sectionCards = document.getElementById("sectionCards");
 
 const fetchData = async () => {
     try {
-        const res = await fetch('https://mockend.com/anafzo/db-mockend/products?limit=12');
+        const res = await fetch('https://raw.githubusercontent.com/anafzo/db-prueba/main/articulos.json');
         const data = await res.json();
         cards(data);
     } catch (error) {
@@ -15,7 +15,6 @@ const fetchData = async () => {
 const cards = data => {
     const prodCategorias = [];
     data.forEach(producto => {
-        // const { category, img } = producto;
         if (!prodCategorias.some(prod => prod.category === producto.category)) {
             prodCategorias.push(producto);
             sectionCards.innerHTML += `
