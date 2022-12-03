@@ -1,5 +1,3 @@
-// import data from './articulos.json' assert { type: 'json' };
-
 const sectionCards = document.getElementById("sectionCards");
 
 const fetchData = async () => {

@@ -1,5 +1,3 @@
-import data from './articulos.json' assert { type: 'json' };
-
 const sectionCards = document.getElementById("sectionCards");
 const tituloProductos=document.getElementById("tituloProductos");
 
@@ -17,7 +15,8 @@ const fetchData = async () => {
 
 const cardsCategory = data => {
     data.forEach(producto => {
-        if (producto.category===localStorage.getItem("category")) {
+        // if (producto.category===localStorage.getItem("category")) {
+        if (producto.category==="Totes") {
             sectionCards.innerHTML += `
             <div class="col">
                 <div class="card">
