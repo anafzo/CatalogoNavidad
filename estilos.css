@@ -34,6 +34,10 @@ h1{
     text-align: center;
 }
 
+.cont-titulo p{
+    font-size: xx-large;
+}
+
 .card h5{
     font-family: 'Yeseva One', cursive;
 }
@@ -41,8 +45,3 @@ h1{
     transform: scale(1.1);
     color: black;
 }
-
-/* .sectionBanner img{
-    height: 50vh;
-    width: 100vw;
-} */
