@@ -2,280 +2,280 @@
     {
         "name": "Bolsa Tote Accolade",
         "price": "400",
-        "img": "/assets/imgs-tote/Tote-Accolade.svg",
+        "img": "https://i.postimg.cc/NfwR9f2G/Tote-Accolade.png",
         "description": "Bolsa tote, colección Accolade",
         "category": "Totes"
     },
     {
         "name": "Bolsa Tote Aquaria",
         "price": "400",
-        "img": "/assets/imgs-tote/Tote-Aquaria.svg",
+        "img": "https://i.postimg.cc/GmLYK7jZ/Tote-Aquaria.png",
         "description": "Bolsa tote, colección Aquaria",
         "category": "Totes"
     },
     {
         "name": "Bolsa Tote Blocket",
         "price": "400",
-        "img": "/assets/imgs-tote/Tote-Blocket.svg",
+        "img": "https://i.postimg.cc/PrzYms1W/Tote-Blocket.png",
         "description": "Bolsa tote, colección Blocket",
         "category": "Totes"
     },
     {
         "name": "Bolsa Tote Mora",
         "price": "400",
-        "img": "/assets/imgs-tote/Tote-Mora.svg",
+        "img": "https://i.postimg.cc/25JZzzfD/Tote-Mora.png",
         "description": "Bolsa tote, colección Mora",
         "category": "Totes"
     },
     {
         "name": "Bolsa Tote Musa",
         "price": "400",
-        "img": "/assets/imgs-tote/Tote-Musa.svg",
+        "img": "https://i.postimg.cc/3xtGcXSW/Tote-Musa.png",
         "description": "Bolsa tote, colección Musa",
         "category": "Totes"
     },
     {
         "name": "Bolsa Tote Naranja",
         "price": "400",
-        "img": "/assets/imgs-tote/Tote-Naranja.svg",
+        "img": "https://i.postimg.cc/856rcq1r/Tote-Naranja.png",
         "description": "Bolsa tote color Naranja",
         "category": "Totes"
     },
     {
         "name": "Bolsa Tote Navy",
         "price": "400",
-        "img": "/assets/imgs-tote/Tote-Navy.svg",
+        "img": "https://i.postimg.cc/R0qt5Wyd/Tote-Navy.png",
         "description": "Bolsa tote, colección Navy",
         "category": "Totes"
     },
     {
         "name": "Bolso de mano Musa",
         "price": "400",
-        "img": "/assets/imgs-bmano/BolsoMano-Musa.svg",
+        "img": "https://i.postimg.cc/sxM7Yv91/Bolso-Mano-Musa.png",
         "description": "Bolso de mano, colección Musa",
         "category": "Bolsos de mano"
     },
     {
-        "name": "Bolso de mano Sandhamn",
+        "name": "Bolso de mano grande Sandhamn",
         "price": "400",
-        "img": "/assets/imgs-bmano/BolsoMano-Sandhamn-grande.svg",
-        "description": "Bolso de mano, colección Sandhamn",
+        "img": "https://i.postimg.cc/wMnJ0g02/Bolso-Mano-Sandhamn.png",
+        "description": "Bolso de mano grande, colección Sandhamn",
         "category": "Bolsos de mano"
     },
     {
-        "name": "Bolso de mano Sandhamn",
+        "name": "Bolso de mano mini Sandhamn",
         "price": "400",
-        "img": "/assets/imgs-bmano/BolsoMano-Sandhamn-mini.svg",
+        "img": "https://i.postimg.cc/pTXDd0mf/Bolso-Mano-Sandhamn-mini.png",
         "description": "Bolso de mano mini, colección Sandhamn",
         "category": "Bolsos de mano"
     },
     {
         "name": "Bolsa cruzada Success",
         "price": "400",
-        "img": "/assets/imgs-bcrossbody/Crossbody-Success.svg",
+        "img": "https://i.postimg.cc/jdzQZJYJ/Crossbody-Success.png",
         "description": "Bolsa cruzada con correo larga, colección Success",
         "category": "Crossbody"
     },
     {
         "name": "Bolsa cruzada Accolade",
         "price": "400",
-        "img": "/assets/imgs-bcrossbody/Crossbody-Accolade.svg",
+        "img": "https://i.postimg.cc/Ls4Tq47g/Crossbody-Accolade.png",
         "description": "Bolsa cruzada con correo larga, colección Accolade",
         "category": "Crossbody"
     },
     {
         "name": "Bolsa cruzada Drift Croc",
         "price": "400",
-        "img": "/assets/imgs-bcrossbody/Crossbody-DriftCroc.svg",
+        "img": "https://i.postimg.cc/1XFcx8g2/Crossbody-Drift-Croc.png",
         "description": "Bolsa cruzada con correo larga, textura de piel de cocodrilo, colección Drift Croc",
         "category": "Crossbody"
     },
     {
         "name": "Bolsa cruzada Jubilee",
         "price": "400",
-        "img": "/assets/imgs-bcrossbody/Crossbody-Jubilee.svg",
+        "img": "https://i.postimg.cc/vmPv5FFq/Crossbody-Jubilee.png",
         "description": "Bolsa cruzada con correo larga, colección Jubilee",
         "category": "Crossbody"
     },
     {
         "name": "Bolsa cruzada Moderne",
         "price": "400",
-        "img": "/assets/imgs-bcrossbody/Crossbody-Moderne.svg",
+        "img": "https://i.postimg.cc/qB6G65mw/Crossbody-Moderne.png",
         "description": "Bolsa cruzada con correo larga, colección Moderne",
         "category": "Crossbody"
     },
     {
         "name": "Bolsa cruzada Musa",
         "price": "400",
-        "img": "/assets/imgs-bcrossbody/Crossbody-Musa.svg",
+        "img": "https://i.postimg.cc/c4qBRB2S/Crossbody-Musa.png",
         "description": "Bolsa cruzada con correo larga, colección Musa",
         "category": "Crossbody"
     },
     {
         "name": "Bolso de viaje Midnatt",
         "price": "400",
-        "img": "/assets/imgs-bviaje/BolsoViaje-Midnatt.svg",
+        "img": "https://i.postimg.cc/T3VmJ8mj/Bolso-Viaje-Midnatt.png",
         "description": "Bolso de viaje, colección Midnatt",
         "category": "Bolsos de viaje"
     },
     {
         "name": "Bolso de viaje Accolade",
         "price": "400",
-        "img": "/assets/imgs-bviaje/BolsoViaje-Accolade.svg",
+        "img": "https://i.postimg.cc/054p80PS/Bolso-Viaje-Accolade.png",
         "description": "Bolso de viaje, colección Accolade",
         "category": "Bolsos de viaje"
     },
     {
         "name": "Bolso de viaje Alpina",
         "price": "400",
-        "img": "/assets/imgs-bviaje/BolsoViaje-Alpina.svg",
+        "img": "https://i.postimg.cc/HkDXMWJs/Bolso-Viaje-Alpina.png",
         "description": "Bolso de viaje, colección Alpina",
         "category": "Bolsos de viaje"
     },
     {
         "name": "Bolso de viaje Jubilee",
         "price": "400",
-        "img": "/assets/imgs-bviaje/BolsoViaje-Jubilee.svg",
+        "img": "https://i.postimg.cc/c48f6tLb/Bolso-Viaje-Jubilee.png",
         "description": "Bolso de viaje, colección Jubilee",
         "category": "Bolsos de viaje"
     },
     {
         "name": "Bolso de viaje Moderne",
         "price": "400",
-        "img": "/assets/imgs-bviaje/BolsoViaje-Moderne.svg",
+        "img": "https://i.postimg.cc/hGKmCCbk/Bolso-Viaje-Moderne.png",
         "description": "Bolso de viaje, colección Moderne",
         "category": "Bolsos de viaje"
     },
     {
         "name": "Bolso de viaje Motiv Bowling",
         "price": "400",
-        "img": "/assets/imgs-bviaje/BolsoViaje-MotivBowling.svg",
+        "img": "https://i.postimg.cc/x8NNkBnz/Bolso-Viaje-Motiv-Bowling.png",
         "description": "Bolso de viaje, colección Motiv Bowling",
         "category": "Bolsos de viaje"
     },
     {
         "name": "Bolso de viaje Musa",
         "price": "400",
-        "img": "/assets/imgs-bviaje/BolsoViaje-Musa.svg",
+        "img": "https://i.postimg.cc/3w9vzgtd/Bolso-Viaje-Musa.png",
         "description": "Bolso de viaje, colección Musa",
         "category": "Bolsos de viaje"
     },
     {
         "name": "Bolso de viaje Sandhamn",
         "price": "400",
-        "img": "/assets/imgs-bviaje/BolsoViaje-Sandhamn.svg",
+        "img": "https://i.postimg.cc/LXX1SnWv/Bolso-Viaje-Sandhamn.png",
         "description": "Bolso de viaje, colección Sandhamn",
         "category": "Bolsos de viaje"
     },
     {
         "name": "Bolso grande Aquaria",
         "price": "400",
-        "img": "/assets/imgs-bmultiusos/Bolso-Aquaria.svg",
+        "img": "https://i.postimg.cc/pdvfwVx1/Bolso-Aquaria.png",
         "description": "Bolso grande, colección Aquaria",
         "category": "Bolsos multiusos"
     },
     {
         "name": "Bolso rosa deportivo Puma",
         "price": "400",
-        "img": "/assets/imgs-bmultiusos/BolsoAsas-Puma.svg",
+        "img": "https://i.postimg.cc/Kzqt3nTd/Bolso-Asas-Puma.png",
         "description": "Bolso deportivo de asas color rosa, colección Puma",
         "category": "Bolsos multiusos"
     },
     {
         "name": "Bolso azul deportivo Puma",
         "price": "400",
-        "img": "/assets/imgs-bmultiusos/BolsoDeportivo-Puma.svg",
+        "img": "https://i.postimg.cc/DzcrnVwf/Bolso-Deportivo-Puma.png",
         "description": "Bolso deportivo color azul/gris, colección Puma",
         "category": "Bolsos multiusos"
     },
     {
         "name": "Neceser Novage",
         "price": "400",
-        "img": "/assets/imgs-bmultiusos/Neceser-Novage-negro.svg",
+        "img": "https://i.postimg.cc/KjtLqCwy/Neceser-Novage-negro.png",
         "description": "Neceser negro, colección Novage",
         "category": "Bolsos multiusos"
     },
     {
         "name": "Mochila Alpina",
         "price": "400",
-        "img": "/assets/imgs-mochilas/Mochila-Alpina.svg",
+        "img": "https://i.postimg.cc/4xPvTkdf/Mochila-Alpina.png",
         "description": "Mochila azul marino, colección Alpina",
         "category": "Mochilas"
     },
     {
         "name": "Mochila Jubilee",
         "price": "400",
-        "img": "/assets/imgs-mochilas/Mochila-Jubilee.svg",
+        "img": "https://i.postimg.cc/Lsst9CYz/Mochila-Jubilee.png",
         "description": "Mochila negra, colección Jubilee",
         "category": "Mochilas"
     },
     {
         "name": "Mochila Lugano",
         "price": "400",
-        "img": "/assets/imgs-mochilas/Mochila-Lugano.svg",
+        "img": "https://i.postimg.cc/FRM3xhPZ/Mochila-Lugano.png",
         "description": "Mochila azul, colección Lugano",
         "category": "Mochilas"
     },
     {
         "name": "Clutch Northern Glow",
         "price": "400",
-        "img": "/assets/imgs-bclutch/Clutch-NorthernGlow.svg",
+        "img": "https://i.postimg.cc/4dmQ5LXJ/Clutch-Northern-Glow.png",
         "description": "Bolso tipo clutch, colección Northern Glow",
         "category": "Clutches"
     },
     {
         "name": "Cartera Moderne",
         "price": "400",
-        "img": "/assets/imgs-cartera/Cartera-Moderne.svg",
+        "img": "https://i.postimg.cc/Z5xHKvfh/Cartera-Moderne.png",
         "description": "Cartera, colección Moderne",
         "category": "Carteras"
     },
     {
         "name": "Cartera Accolade",
         "price": "400",
-        "img": "/assets/imgs-cartera/Cartera-Accolade.svg",
+        "img": "https://i.postimg.cc/XJzyYnSW/Cartera-Accolade.png",
         "description": "Cartera con correa larga, colección Accolade",
         "category": "Carteras"
     },
     {
         "name": "Cartera Musa",
         "price": "400",
-        "img": "/assets/imgs-cartera/Cartera-Musa.svg",
+        "img": "https://i.postimg.cc/YCH8Hzz3/Cartera-Musa.png",
         "description": "Cartera, colección Musa",
         "category": "Carteras"
     },
     {
         "name": "Cosmetiqueras Sandhamn",
         "price": "400",
-        "img": "/assets/imgs-cosmetiqueras/Cosmetiqueras-Sandhamn.svg",
+        "img": "https://i.postimg.cc/tTwtm3gF/Cosmetiqueras-Sandhamn.png",
         "description": "Set de 3 cosmetiqueras, colección Snadhamn",
         "category": "Cosmetiqueras"
     },
     {
         "name": "Mascada Morada",
         "price": "400",
-        "img": "/assets/imgs-accesorios/Mascada-Morada.svg",
+        "img": "https://i.postimg.cc/qRh2nNGq/Mascada-Morada.png",
         "description": "Mascada Morada",
         "category": "Accesorios"
     },
     {
         "name": "Gorra rosa Puma",
         "price": "400",
-        "img": "/assets/imgs-accesorios/Gorra-Puma-rosa.svg",
+        "img": "https://i.postimg.cc/P5TbcrdV/Gorra-Puma-rosa.png",
         "description": "Gorra Puma ajustable color rosa",
         "category": "Accesorios"
     },
     {
         "name": "Mascada Fantasía",
         "price": "400",
-        "img": "/assets/imgs-accesorios/Mascada-Fantasia.svg",
+        "img": "https://i.postimg.cc/k5hxBQKL/Mascada-Fantasia.png",
         "description": "Mascada colección Fantasía",
         "category": "Accesorios"
     },
     {
         "name": "Reloj Moderne",
         "price": "400",
-        "img": "/assets/imgs-accesorios/Reloj-Moderne.svg",
+        "img": "https://i.postimg.cc/L4Pz8ZX0/Reloj-Moderne.png",
         "description": "Reloj para dama colección Moderne",
         "category": "Accesorios"
     }
