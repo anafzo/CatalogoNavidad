@@ -15,8 +15,8 @@ const fetchData = async () => {
 
 const cardsCategory = data => {
     data.forEach(producto => {
-        // if (producto.category===localStorage.getItem("category")) {
-        if (producto.category==="Totes") {
+        if (producto.category===localStorage.getItem("category")) {
+        // if (producto.category==="Totes") {
             sectionCards.innerHTML += `
             <div class="col">
                 <div class="card">
