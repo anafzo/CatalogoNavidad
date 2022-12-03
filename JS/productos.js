@@ -27,7 +27,17 @@ const cardsCategory = data => {
     })
 }
 
+function listenerNavbar() {
+    document.querySelectorAll('.dropdown-item').forEach(item => {
+        item.addEventListener('click', event => {
+            localStorage.setItem("category", item.textContent);
+            console.log(localStorage.getItem("category"));
+        })
+    })
+}
+
 //Aqui ejecutamos nuestra función fetchData
 document.addEventListener('DOMContentLoaded', () => {
     cardsCategory(data);
+    listenerNavbar();
 });
