@@ -7,7 +7,7 @@ main {
     min-height: 100vh;
 }
 
-#titulo-navbar {
+#title-navbar {
     font-family: 'Dancing Script', cursive;
     color: green;
 }
@@ -37,7 +37,7 @@ h1 {
     color: #840000;
 }
 
-.cont-titulo p {
+.cont-title p {
     font-family: 'Arima Madurai', cursive;
     text-align: center;
     font-size: 4vw;
