@@ -1,7 +1,7 @@
 import { cardsCategory, listenerNavbar } from "./functions.js";
 
-const tituloProductos=document.getElementById("tituloProductos");
-tituloProductos.textContent=localStorage.getItem("category");
+const productsTitle=document.getElementById("productsTitle");
+productsTitle.textContent=localStorage.getItem("category");
 
 const fetchData = async () => {
     try {
