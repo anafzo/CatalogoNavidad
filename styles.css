@@ -26,12 +26,15 @@ a {
     padding: 0;
     margin: 0;
     color: green;
+    font-family: 'Dancing Script', cursive;
 }
 
 h1 {
     font-family: 'Dancing Script', cursive;
-    font-size: 60px;
+    font-size: 8vw;
     text-align: center;
+    text-shadow: 1px 1px 2px black;
+    color: #840000;
 }
 
 .cont-titulo p {
@@ -48,11 +51,6 @@ h1 {
     transform: scale(1.1);
     color: black;
 }
-
-/* #pintro{
-    font-family: 'Arima Madurai', cursive;
-    text-align: center;
-} */
 
 /* Title animation style */
 .svg-text {
@@ -76,7 +74,6 @@ h1 {
 
 .svg-text:hover {
     cursor: pointer;
-    /* color: #840000; */
 }
 
 .svg-text:hover .svg-text__shaded__stroke {
