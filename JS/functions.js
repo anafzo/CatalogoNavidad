@@ -42,7 +42,7 @@ function saveLocalStorage(value){
 export const cardsCategory = data => {
     const sectionCards = document.getElementById("sectionCards");
     data.forEach(producto => {
-        if (producto.category===localStorage.getItem("category")) {
+        if (producto.category===localStorage.getItem("category") && producto.quantity!=0) {
             sectionCards.innerHTML += `
             <div class="col">
                 <div class="card">
@@ -51,6 +51,7 @@ export const cardsCategory = data => {
                         <h5 class="card-title">${producto.name}</h5>
                         <p class="card-text">${producto.description}</p>
                         <p class="card-text">${producto.measures}</p>
+                        <p class="card-text">Cantidad disponible: ${producto.quantity}</p>
                         <p class="card-text">${producto.price}</p>
                         <a href="https://wa.me/526677916253?text=Me%20interesa%20${producto.name}%20del%20outlet%20Oriflame" class="btn btn-outline-success btn-large"><img src="/assets/whatsapp.svg"> Contáctame</a>
                     </div>
